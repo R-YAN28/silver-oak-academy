@@ -1,0 +1,95 @@
+*{
+
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height:100vh;
+  background: url("https://img.freepik.com/free-photo/workplace-arrangement-purple-background-with-copy-space_23-2148404536.jpg?t=st=1770659366~exp=1770662966~hmac=0102c44beef300ecb0ef020d213f6231e6a0f720b411da94777fab69887e28df") no-repeat center center/cover;
+}
+
+.overlay{
+  height:100vh;
+  background: rgba(5, 20, 50, 0.2);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.form-box{
+  width:380px;
+  padding:15px 30px;
+  border-radius:14px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.3);
+  animation: fadeIn 0.6s ease-in-out;
+  margin-right:300px;
+}
+
+.form-box h2,p{
+  text-align:center;
+  color:white;
+  margin-bottom:20px;
+}
+
+.form-box input{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border:1.5px solid #ddd;
+  border-radius:8px;
+  font-size:14px;
+  transition:0.3s;
+}
+
+.form-box input:focus{
+  border-color:#ff9800;
+  outline:none;
+}
+
+.error{
+  color:white;
+  font-size:13px;
+  margin-top:5px;
+}
+
+.form-box button{
+  width:100%;
+  padding:12px;
+  margin-top:15px;
+  background:linear-gradient(45deg,#ff9800,#ffb300);
+  border:none;
+  color:white;
+  font-size:16px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.form-box button:hover{
+  background:linear-gradient(45deg,#ff8800,#ffa000);
+}
+
+.link{
+  text-align:center;
+  margin-top:15px;
+  font-size:14px;
+}
+
+.link a{
+  color:#ff9800;
+  text-decoration:none;
+  font-weight:600;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+    transform:translateY(20px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}

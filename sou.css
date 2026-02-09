@@ -1,0 +1,446 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* <!--------------- Body CSS Start--------------------> */
+body {
+    background: #f5f7fb;
+}
+/* <!--------------- Body CSS Close--------------------> */
+
+/* <!--------------- Header CSS Start--------------------> */
+.logo img{
+	height:80px;
+	width:300px;
+}
+header {
+    background: linear-gradient(to right,#FFFFFF,#43387D);
+    color: white;
+    padding: 15px 50px 10PX 5PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* <!--------------- Header CSS Close--------------------> */
+
+/* <!--------------- Nav CSS Start--------------------> */
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+/* <!--------------- Nav CSS Close--------------------> */
+
+/* <!--------------- Signup CSS Start--------------------> */
+.signup {
+    background: orange;
+    padding: 6px 12px;
+    border-radius: 5px;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+	transition: tranform 0.3s ease,box-showdow 0.3 ease;
+}
+
+.signup:hover {
+    background: darkorange;
+	color:white;
+	transform: scale(1.05);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+
+}
+/* <!--------------- Signup CSS Close--------------------> */
+
+/* <!--------------- Hero CSS Start--------------------> */
+.hero {
+    background-image: url("https://img.freepik.com/premium-photo/flat-isometric-modern-illustration-white-background-online-courses-concept-suitable-use-web-banners-infographics-hero-images-etc_717906-29404.jpg?w=1380");
+	height:90vh;
+	background-size:cover;
+	background-position:center;
+	color: white;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+    
+}
+.hero h1{
+	padding-top:250px;
+	font-size: 50px;
+}
+
+.hero p{
+	font-size: 30px;
+}
+
+.hero-btn button {
+	font-size: 20px;
+    margin: 30px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 15px;
+}
+/* <!--------------- Hero CSS Close--------------------> */
+
+/* <!--------------- BTN CSS Start--------------------> */
+.btn-primary {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+	transition: tranform 0.3s ease,box-showdow 0.3 ease;
+	text-decoration: none;
+}
+
+.btn-primary:hover {
+    background: darkorange;
+	color:white;
+	transform: scale(1.05);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+
+.btn-secondary {
+   background: white;
+    color: black;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+	transition: tranform 0.3s ease,box-showdow 0.3 ease;
+	text-decoration: none;
+}
+
+.btn-secondary:hover {
+    background: white;
+	color:black;
+	transform: scale(1.05);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+/* <!--------------- BTN CSS Close--------------------> */
+
+/* <!--------------- Course CSS Start--------------------> */
+.courses {
+    padding: 40px;
+    text-align: center;
+}
+
+.courses h2{
+	text-align:left;
+}
+
+.course-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+/* <!--------------- Course CSS Close--------------------> */
+
+/* <!--------------- Card CSS Start--------------------> */
+.card {
+    background: white;
+    padding: 0px;
+    width: 320px;
+	height:450px;	
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+	transition: tranform 0.3s ease,box-showdow 0.3 ease;
+	
+}
+
+.card:hover{
+	transform: scale(1.05);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+.card-1{
+	background-color:red;
+	border-top-left-radius:16px;
+	border-top-right-radius:16px;
+	height: 229px;
+}
+
+.card-1 img{
+	height:230px;
+	width:100%;
+	border-top-left-radius:16px;
+	border-top-right-radius:16px;
+}
+
+.card button {
+    margin-bottom: 100px;
+    background: #4b3f72;
+    color: white;
+	text-align:center;
+	justify-content:center;
+    border: none;
+	margin-bottom:10px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.card a{
+	text-decoration: none;
+}
+
+.card h3{
+	font-size:22px;
+	font-weight:600;
+	margin-bottom:10px;
+	padding:10px;
+}
+
+.card h3,h4{
+	margin:0px;
+}
+/* <!--------------- Card CSS Close--------------------> */
+
+/* <!--------------- BTN CSS Start--------------------> */
+.btn {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+	
+}
+
+.btn:hover {
+    background: rgba(92, 77, 173, 1)
+}
+.stars {
+    color: gold;
+	margin-bottom:18px;
+}
+/* <!--------------- BTN CSS Close--------------------> */
+
+/* <!--------------- WHY CSS Start--------------------> */
+.why {
+    background: rgba(215, 233, 247, 1);
+    padding: 40px;
+    text-align: center;
+}
+.why h2{
+	text-align:left;
+}
+.why-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+	background-color:rgba(215, 233, 247, 1);
+}
+.why-box1{
+	height: 350px;
+	background-color: white;
+    padding: 0px;
+    width: 300px;
+	box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+	transition: tranform 0.3s ease,box-showdow 0.3 ease;
+}
+
+.why-box1:hover{
+	transform: scale(1.05);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+.why-box1 p{
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	display:flex;
+	margin-top:10px;
+}
+.why-box-img img{
+	height:100vh;
+	max-width:100%;
+	height:190px;
+	margin-top:10px;
+	width:250px;
+	object-fit:center;
+	background-color:blue;
+}
+/* <!--------------- WHY CSS Close--------------------> */
+
+/* <!--------------- STATS CSS Start--------------------> */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 90px;
+    background: white;
+    font-weight: bold;
+}
+.stats1{
+	background-color:rgba(215, 233, 247, 1);
+	height: 270px;
+    padding: 10px;
+    width: 250px;
+	border-radius:16px;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+	transition: tranform 0.3s ease,box-showdow 0.3 ease;
+}
+
+.stats1:hover{
+	transform: scale(1.05);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+.stats1-img img{
+	height:100vh;
+	height:150px;
+	margin-top 	:10px;
+	margin-left:15px;
+	width:200px;
+	object-fit:center;
+	background-color:blue;
+	font-size:32px;
+
+}
+.stats1 p{
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	display:flex;
+	margin-top:20px;
+}
+/* <!--------------- STATS CSS Close--------------------> */
+
+/* <!---------- Reviews Section CSS Start-------------> */
+.reviews {
+    padding: 40px 60px;
+	height:300px;
+}
+
+.reviews h2 {
+    color: #1e1b4b;
+}
+
+.review-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.review-card {
+    display: flex;
+    background: #cbd5e1;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	margin-left:150px;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+	transition: tranform 0.3s ease,box-showdow 0.3 ease;
+}
+
+.review-card:hover{
+	transform: scale(1.05);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+.review-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.review-content {
+    padding: 15px;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stars {
+    color: gold;
+    font-size: 18px;
+}
+/* <!--------------- Reviews Section CSS Close--------------------> */
+
+/* <!--------------- CTA Section CSS Close--------------------> */
+.cta {
+    background: #4c3f8c;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta a{
+	text-decoration: none;
+}
+
+.cta-btn {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+	transition: tranform 0.3s ease,box-showdow 0.3 ease;
+}
+
+.cta-btn:hover {
+    background: darkorange;
+	transform: scale(1.05);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+/* <!--------------- CTA Section CSS Close--------------------> */
+
+/* <!--------------- Footer CSS Close--------------------> */
+.footer {
+    background: #e5e7eb;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+	height:250px;
+    flex-wrap: wrap;
+	padding: 40px 60px 0;
+	background-color:rgba(217, 217, 217, 1);
+}
+
+.footer-col h4 {
+    border-bottom: 2px solid #999;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-col a {
+    display: block;
+    text-decoration: none;
+    color: #111827;
+    margin: 5px 0;
+}
+
+.footer-col p {
+    margin: 5px 0;
+}
+
+.copyright {
+    background: #4c3f8c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* <!--------------- Footer CSS Close--------------------> */

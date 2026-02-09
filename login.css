@@ -1,0 +1,66 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background: url("https://img.freepik.com/free-photo/overhead-view-laptop-cellphone-with-stationery-colored-background_23-2147880647.jpg?t=st=1770659605~exp=1770663205~hmac=5fb781abf52f7b304030432ad52bda03bac7d83950aff3943d04dec8d309ab1a") no-repeat center center/cover;
+  height:100vh;
+}
+
+.overlay{
+  background: rgba(0,0,0,0.2);
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.form-box{
+  padding:30px;
+  width:350px;
+  border-radius:10px;
+  text-align:center;
+  margin-left:500px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.3);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.form-box h2{
+  margin-bottom:20px;
+  color:white;
+}
+
+.form-box p{
+   color:white;
+}
+
+input{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+button{
+	margin-top:10px;
+  width:100%;
+  padding:10px;
+  background:#ff9800;
+  border:none;
+  color:white;
+  font-size:16px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#e68900;
+}
+
+.error{
+  color:red;
+  font-size:14px;
+}
+
+.link{
+  margin-top:15px;
+}

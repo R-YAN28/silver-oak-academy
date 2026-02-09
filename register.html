@@ -1,0 +1,63 @@
+<html>
+	<head>
+	  <title>Register | Silver Oak Academy</title>
+	  <link rel="stylesheet" href="../CSS/registration.css">
+	</head>
+	<body>
+		<div class="overlay">
+		  <div class="form-box">
+			<h2>Create Account</h2>
+
+			<form id="registerForm">
+			  <input type="text" id="name" placeholder="Full Name">
+			  <input type="email" id="email" placeholder="Email Address">
+			  <input type="password" id="password" placeholder="Password">
+			  <input type="password" id="cpassword" placeholder="Confirm Password">
+
+			  <p class="error" id="errorMsg"></p>
+
+			  <button type="submit">Register</button>
+			</form>
+
+			<p class="link">Already have account? <a href="../pages/login.html">Login</a></p>
+		  </div>
+		</div>
+
+	<script>
+		document.getElementById("registerForm").addEventListener("submit", function(e){
+
+		e.preventDefault(); // page reload rokta hai
+
+		let name = document.getElementById("name").value.trim();
+		let email = document.getElementById("email").value.trim();
+		let pass = document.getElementById("password").value.trim();
+		let cpass = document.getElementById("cpassword").value.trim();
+		let error = document.getElementById("errorMsg");
+
+		if(name === "" || email === "" || pass === "" || cpass === ""){
+		error.innerText = "All fields are required!";
+		return;
+		}
+		
+		let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+		if(!email.match(emailPattern)){
+		error.innerText = "Enter valid email address!";
+		return;
+		}
+		
+	 	if(pass !== cpass){
+		error.innerText = "Password & Confirm Password not matching!";
+		return;
+		}
+
+		if(pass.length < 6){
+		error.innerText = "Password must be at least 6 characters!";
+		return;
+		}
+
+		error.style.color = "green";
+		error.innerText = "Registration successful!";
+		});
+	</script>
+	</body>
+</html>
